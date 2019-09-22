@@ -14,8 +14,6 @@ def polish_notation (operator, operand1, operand2):
         result = operand1 - operand2
     elif operator == '+':
         result = operand1 + operand2
-    else:
-        pass
     return result
 
 def main():
